@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="finGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded Base Icon -->
+  <rect width="64" height="64" rx="16" fill="url(#finGrad)"/>
+  
+  <!-- Wallet Icon -->
+  <!-- Wallet Main Body -->
+  <rect x="12" y="21" width="40" height="26" rx="4" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Top Flap -->
+  <path d="M12 28v-9a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v2" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Pocket Clasp -->
+  <path d="M38 30a4 4 0 0 0 0 8h14v-8H38z" fill="#ffffff" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Clasp Dot / Button -->
+  <circle cx="42" cy="34" r="2" fill="#4338ca"/>
+</svg>
